@@ -11,7 +11,7 @@ import tkinter.filedialog
 from idlelib.colorizer import ColorDelegator
 from idlelib.percolator import Percolator
 
-
+__version__ = "1.0.0"
 
 class __main__:
     window = tk.Tk()
@@ -49,7 +49,7 @@ class __main__:
         scrollbar1 = tk.Scrollbar(window)
         scrollbar1.pack(side=tk.RIGHT, fill=tk.Y)
         # TextEdit
-        highlight_text = tk.Text(window,yscrollcommand=scrollbar1.set,font=("Consolas",13))
+        highlight_text = tk.Text(window,yscrollcommand=scrollbar1.set)
         scrollbar1.config(command=highlight_text.yview)
         highlight_text.place(height=480,width=585)
         Percolator(highlight_text).insertfilter(ColorDelegator())
