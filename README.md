@@ -7,7 +7,7 @@ StarWorld Python编辑器是一个由StarWorld、熊熊糖果、这里是小邓�
 2. PySimpleGUI(开源文件夹已内置)
 3. idlelib(Python安装时选择)
 
-## 构建步骤
+## 运行步骤
 1. 安装Python3
 2. 在编辑器目录运行代码：
 ```sh
@@ -29,7 +29,7 @@ py ./__main__.py
 
 # StarWorld Python Editor
 StarWorld Python editor is a lightweight Python editor jointly developed by StarWorld, XXTG666 and This is XiaoDeng. This editor has many functions such as code highlighting and code debugging. You can also modify `resources.py` file (within the scope of license) defines your own StarWorld Python Editor Icon, which can also be modified`__ main__.py ` file (within the scope of the license) to customize your functions
-## Rely on
+## Running steps
 1. Python3
 2. Pysimplegui (the open source folder has been built in)
 3. Idlelib (selected during Python installation)
